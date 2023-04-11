@@ -3,7 +3,7 @@ import { useState } from 'react'
 import axios from 'axios';
 import img1 from "../images/day.jpg"
 import style from "../../styles/SideBar.module.css"
-import {MY_API_KEY} from "../../../variable"
+
 
 
 const SideBar = () => {
@@ -24,7 +24,7 @@ const SideBar = () => {
     useEffect(() => {
        
         const getData=async()=>{
-            const res = await axios.get(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/dhaka?unitGroup=us&key=${process.env.API_KEY}&contentType=json`)
+            const res = await axios.get(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/karachi?unitGroup=us&key=${process.env.API_KEY}&contentType=json`)
             console.log(res.data)
             setData(res.data)
             setCity(res.data.resolvedAddress);
