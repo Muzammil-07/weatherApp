@@ -59,6 +59,7 @@ height:80vh;
         z-index: 1;
     }.header{
         height: 10vh;
+        padding-top: 5vh;
     }.rightBar{
         position: absolute ;
         top: 20vh;
