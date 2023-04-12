@@ -51,15 +51,19 @@
 
     }.sideBar{
         width:100vw;
-        margin: 0;
+        
         height: 80vh;
         position: relative;
+       margin: 0;
+        padding: 0;
         z-index: 1;
     }.header{
         height: 20vh;
     }.rightBar{
-        position: fixed ;
+        position: absolute ;
         top: 20vh;
         z-index: 0;
+        width: 100vw;
+        height: 100vh;
     }
     }
