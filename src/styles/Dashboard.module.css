@@ -36,7 +36,7 @@
 
 
 .globe{
-    height: 600px;
+height:80vh;
    
 }.heading{
     color: white;
@@ -65,5 +65,7 @@
         z-index: 0;
         width: 100vw;
         height: 100vh;
+    }.globe{
+        height: 60vh;
     }
     }
